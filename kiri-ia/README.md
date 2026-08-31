@@ -1,18 +1,93 @@
-# Kiri IA — Plataforma de gestión de residuos
+# ♻️ Kiri IA
 
-App web (Next.js 14 + TypeScript + Tailwind) lista para desplegar en Vercel.
-Funciona sin base de datos ni llaves: los datos se guardan en el navegador.
+### Gestión inteligente y trazable de residuos
 
-## Qué incluye
-- **Landing** con la propuesta de Kiri IA.
-- **3 roles**: Cliente, Gestor, Administrador.
-- **Cliente**: Gestionar (7 preguntas en una sola pantalla) · Inventario · Seguimiento · Analítica.
-  - Describe el residuo (o sube foto opcional). Si no sabe, abre el agente **Solicitud IA**, que orienta con el diccionario de Kiri (qué es, categoría, semáforo, cómo tratarlo).
-  - Mapa real con pin arrastrable (Leaflet + OpenStreetMap, sin API key).
-  - Embalaje: Caja / Bolsa / Caneca (todo sellado).
-  - Cotización con las tarifas del gestor (nunca precios inventados por Kiri).
-- **Gestor**: arma rutas libres (días, zonas, categorías) y define sus tarifas.
-- **Admin**: métricas y últimas solicitudes.
+Kiri IA es una plataforma web diseñada para facilitar la gestión
+de residuos desde su identificación hasta su disposición final.
+
+Permite conectar generadores y gestores, realizar seguimiento,
+gestionar inventarios y apoyar la clasificación de residuos
+mediante asistencia inteligente.
+
+## 🎯 Problema
+
+La gestión de residuos puede involucrar procesos manuales,
+información dispersa y poca trazabilidad entre quienes generan
+los residuos y quienes realizan su gestión.
+
+Kiri IA busca centralizar este proceso en una experiencia digital
+simple y accesible.
+
+## ✨ Funcionalidades
+
+- 🤖 Asistencia para identificación de residuos
+- 📦 Gestión de inventario
+- 🔎 Seguimiento y trazabilidad
+- 📊 Analítica
+- 👤 Gestión por roles
+- ♻️ Información para clasificación de residuos
+- 🚚 Conexión entre generadores y gestores
+
+## 👥 Roles
+
+### Cliente
+Registra residuos, consulta inventario y realiza seguimiento.
+
+### Gestor
+Gestiona solicitudes y procesos relacionados con los residuos.
+
+### Administrador
+Supervisa usuarios, operaciones y funcionamiento de la plataforma.
+
+## 🧠 Asistencia inteligente
+
+Cuando el usuario no conoce la clasificación de un residuo,
+puede utilizar Solicitud IA para recibir orientación basada
+en el diccionario de Kiri.
+
+## 🛠️ Tecnologías
+
+- Next.js 14
+- TypeScript
+- React
+- Tailwind CSS
+- JavaScript
+- Vercel
+
+## 🏗️ Arquitectura
+
+kiri-ia/
+├── app/
+├── components/
+├── lib/
+├── public/
+├── README.md
+├── package.json
+├── next.config.mjs
+└── tailwind.config.ts
+
+## 🚀 Demo
+
+Aplicación desplegada en Vercel.
+
+## 🌱 Impacto
+
+Kiri IA explora cómo la tecnología puede mejorar la gestión
+responsable de residuos mediante trazabilidad, información
+comprensible y herramientas digitales de apoyo.
+
+## 👩‍💻 Desarrollo
+
+Proyecto desarrollado como solución tecnológica orientada
+a sostenibilidad, gestión ambiental e innovación.
+
+Áreas trabajadas:
+
+- Desarrollo frontend
+- Diseño de experiencia de usuario
+- Arquitectura de aplicaciones web
+- Gestión y visualización de información
+- Integración de funcionalidades de IA
 
 ## Correr en local
 ```bash
