@@ -32,12 +32,13 @@ Muchas empresas y pequeños negocios generan residuos pero no saben identificarl
 - **Cotiza con gestores reales por zona.** Conecta con el gestor que cubre tu localidad y tu residuo; los precios los pone el gestor, no Kiri.
 - **Traza hasta la evidencia.** Sigue el servicio y guarda el certificado de destino.
 
-### Roles
-| Rol | Qué hace |
-|-----|----------|
-| 👤 **Cliente** | Gestionar (7 preguntas en una pantalla) · Inventario · Seguimiento · Analítica |
-| 🚛 **Gestor** | Arma rutas libres (días, zonas, categorías) y define sus tarifas |
-| ⚙️ **Administrador** | Métricas y solicitudes de la operación |
+### 👥 Roles
+
+| Rol | ¿Qué puede hacer? |
+| --- | --- |
+| 👤 **Cliente** | Gestionar residuos, consultar inventario, seguimiento y analítica |
+| 🚛 **Gestor** | Configurar rutas, zonas, categorías y tarifas |
+| ⚙️ **Administrador** | Supervisar métricas, usuarios y solicitudes de la operación |
 
 ## Tecnología
 
