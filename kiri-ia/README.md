@@ -103,4 +103,4 @@ Abre http://localhost:3000
 
 La aplicación está desplegada en **Vercel** y puede consultarse desde la demo pública.
 
-El proyecto utiliza **Next.js** y actualmente no requiere variables de entorno para ejecutar esta versión.n residuos peligrosos muestra el aviso de manejo especializado.
+El proyecto utiliza **Next.js** y actualmente no requiere variables de entorno para ejecutar esta versión.
