@@ -6,13 +6,10 @@
 
 ### Gestión de residuos tan simple como pedir un servicio
 
-**Identifica → enseña → cotiza → conecta → transporta → traza → demuestra el destino.**
+**Identifica → orienta → conecta → gestiona → traza**
 
-[![App en vivo](https://img.shields.io/badge/App_en_vivo-Vercel-14432A?style=for-the-badge)](https://kiri-ia.vercel.app/)
-[![Prototipo](https://img.shields.io/badge/Prototipo-Figma-3FA66A?style=for-the-badge)](https://spent-mud-17002851.figma.site/)
-
-🔗 **App:** https://kiri-ia.vercel.app/  
-🎨 **Prototipo:** https://spent-mud-17002851.figma.site/
+[![App en vivo](https://img.shields.io/badge/App_en_vivo-Vercel-black?style=for-the-badge&logo=vercel)](https://kiri-ia.vercel.app/)
+[![Prototipo](https://img.shields.io/badge/Prototipo-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://spent-mud-17002851.figma.site/)
 
 </div>
 
@@ -20,82 +17,79 @@
 
 ## 💡 ¿Qué es Kiri IA?
 
-**Kiri IA** es una plataforma web orientada a facilitar la gestión de residuos de forma accesible, educativa y trazable.
+**Kiri IA** es una plataforma web orientada a facilitar la gestión de residuos mediante una experiencia accesible, educativa y trazable.
 
-La solución busca acompañar al usuario desde la identificación del residuo hasta su gestión final, conectando generadores y gestores mediante una experiencia digital sencilla.
+La solución acompaña al usuario desde la identificación inicial del residuo hasta el seguimiento de su gestión, integrando herramientas digitales para conectar generadores y gestores.
 
-El proyecto integra:
-
-- ♻️ Gestión de residuos
-- 🚚 Logística
-- 🤖 Asistencia inteligente
-- 📊 Trazabilidad
-- 🗺️ Geolocalización
-- 📚 Educación ambiental
+El proyecto combina **gestión ambiental, logística, geolocalización, trazabilidad y asistencia inteligente**.
 
 ---
 
-## 🎯 El problema
+## 🎯 Problema
 
-Empresas, pequeños negocios y otros generadores de residuos pueden enfrentar dificultades para:
+Empresas, pequeños negocios y otros generadores de residuos pueden encontrar dificultades para:
 
-- Identificar correctamente un residuo.
-- Saber cómo separarlo o almacenarlo.
-- Encontrar un gestor adecuado.
-- Conocer costos aproximados de gestión.
+- Identificar correctamente sus residuos.
+- Saber cómo clasificarlos o almacenarlos.
+- Encontrar gestores adecuados.
+- Consultar opciones según zona y categoría.
 - Hacer seguimiento al proceso.
-- Mantener evidencia del destino final.
+- Mantener información sobre la gestión realizada.
 
-Kiri IA busca centralizar ese proceso en una experiencia digital más clara y accesible.
+Kiri IA busca centralizar estas necesidades en una experiencia digital sencilla y comprensible.
 
 ---
 
-## ✨ ¿Qué hace la aplicación?
+## ✨ Funcionalidades
 
 ### 🤖 Identificación asistida
 
-El usuario describe el residuo con sus propias palabras y **Solicitud IA** lo orienta hacia una categoría utilizando el diccionario interno de Kiri.
+El usuario describe el residuo con sus propias palabras y **Solicitud IA** ofrece orientación utilizando el diccionario interno de residuos de Kiri.
 
-La plataforma muestra información general sobre manejo y clasificación.
+### 📦 Inventario
+
+Permite registrar y consultar información relacionada con los residuos asociados al usuario.
 
 ### 🚚 Conexión con gestores
 
-Permite relacionar solicitudes con gestores según:
+La plataforma contempla la relación entre solicitudes y gestores según criterios como:
 
 - Zona
 - Categoría del residuo
 - Cobertura
 - Tarifas
 
-### 📦 Inventario
+### 🗺️ Geolocalización
 
-Los usuarios pueden mantener un registro de los residuos asociados a su operación.
+Integra mapas mediante **Leaflet y OpenStreetMap** para apoyar la ubicación dentro de la experiencia.
 
 ### 🔎 Seguimiento y trazabilidad
 
-Permite consultar el estado del proceso y conservar información relacionada con la gestión realizada.
+Permite consultar información relacionada con el estado y evolución de la gestión.
 
 ### 📊 Analítica
 
-Incluye visualizaciones para facilitar el seguimiento de información operativa.
+Incluye visualizaciones para facilitar la comprensión de información operativa.
 
 ---
 
 ## 👥 Roles
 
-| Rol | ¿Qué puede hacer? |
+| Rol | Funciones principales |
 | --- | --- |
 | 👤 **Cliente** | Gestionar residuos, consultar inventario, seguimiento y analítica |
-| 🚛 **Gestor** | Configurar rutas, zonas, categorías y tarifas |
-| ⚙️ **Administrador** | Supervisar métricas, usuarios y solicitudes de la operación |
+| 🚛 **Gestor** | Gestionar rutas, zonas, categorías y tarifas |
+| ⚙️ **Administrador** | Consultar métricas y supervisar solicitudes de la operación |
 
 ---
 
 ## 🧠 Asistencia inteligente
 
-Cuando el usuario no conoce la clasificación de un residuo, puede utilizar **Solicitud IA** para recibir orientación basada en el diccionario de residuos de Kiri.
+Cuando el usuario no conoce la clasificación de un residuo, puede utilizar **Solicitud IA** como herramienta de orientación.
 
-La lógica de clasificación está diseñada como una herramienta de apoyo y no como sustituto de una evaluación especializada.
+La versión actual utiliza un **clasificador local basado en el diccionario de residuos de Kiri**, permitiendo apoyar la clasificación incluso sin depender de una API externa.
+
+> Kiri IA orienta de forma general y no certifica procesos ambientales ni reemplaza la evaluación de especialistas o autoridades competentes.
 
 ---
 
@@ -113,9 +107,9 @@ La lógica de clasificación está diseñada como una herramienta de apoyo y no 
 - **Leaflet**
 - **OpenStreetMap**
 
-### Datos
+### Persistencia
 
-- Persistencia local mediante **localStorage**
+- **localStorage** en la versión actual
 - Arquitectura preparada para futura integración con **Supabase**
 
 ### Despliegue
@@ -141,3 +135,129 @@ Kiri-IA/
     ├── next.config.mjs
     ├── tailwind.config.ts
     └── tsconfig.json
+```
+
+---
+
+## 🚀 Demo
+
+🌐 **Aplicación:**  
+https://kiri-ia.vercel.app/
+
+🎨 **Prototipo:**  
+https://spent-mud-17002851.figma.site/
+
+---
+
+## 💻 Ejecutar en local
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/Gei-del/Kiri-IA.git
+```
+
+### 2. Entrar al proyecto
+
+```bash
+cd Kiri-IA/kiri-ia
+```
+
+### 3. Instalar dependencias
+
+```bash
+npm install
+```
+
+### 4. Ejecutar
+
+```bash
+npm run dev
+```
+
+Abre en el navegador:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## ☁️ Despliegue
+
+La aplicación está desplegada en **Vercel**.
+
+La versión actual utiliza **Next.js** y no requiere variables de entorno para ejecutarse.
+
+---
+
+## 🌱 Enfoque
+
+Kiri IA explora cómo la tecnología puede facilitar una gestión de residuos más comprensible mediante:
+
+- Educación ambiental.
+- Organización de información.
+- Trazabilidad.
+- Geolocalización.
+- Conexión entre actores.
+- Herramientas digitales de apoyo.
+
+---
+
+## 🛡️ Uso responsable
+
+Kiri IA funciona como una herramienta de **orientación general**.
+
+No certifica el cumplimiento de obligaciones ambientales ni sustituye la evaluación de gestores autorizados, especialistas o autoridades competentes.
+
+Para residuos peligrosos o especiales, la plataforma promueve la búsqueda de manejo especializado.
+
+---
+
+## 📌 Estado del proyecto
+
+🟢 **Prototipo funcional en evolución**
+
+La versión actual incluye:
+
+- ✅ Gestión por roles
+- ✅ Inventario
+- ✅ Solicitud IA / clasificación asistida
+- ✅ Seguimiento
+- ✅ Analítica
+- ✅ Mapas y geolocalización
+- ✅ Persistencia local
+- ✅ Demo desplegada en Vercel
+
+---
+
+## 🔮 Próximos pasos
+
+- [ ] Integrar Supabase como backend persistente.
+- [ ] Implementar autenticación real de usuarios.
+- [ ] Mejorar operaciones multiusuario.
+- [ ] Fortalecer la trazabilidad.
+- [ ] Incorporar historial de gestiones.
+- [ ] Añadir pruebas automatizadas.
+- [ ] Mejorar accesibilidad.
+- [ ] Ampliar analítica y métricas.
+
+---
+
+## 👩‍💻 Desarrollo
+
+Proyecto desarrollado como una propuesta tecnológica que integra:
+
+`Next.js` · `TypeScript` · `React` · `Tailwind CSS` · `Leaflet` · `OpenStreetMap` · `IA aplicada`
+
+---
+
+<div align="center">
+
+### ♻️ Kiri IA
+
+**Tecnología para hacer más comprensible y trazable la gestión de residuos.**
+
+Hecho en Colombia 🇨🇴
+
+</div>
