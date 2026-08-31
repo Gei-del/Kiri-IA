@@ -70,7 +70,8 @@ kiri-ia/
 
 ## 🚀 Demo
 
-Aplicación desplegada en Vercel.
+🌐 **Aplicación en funcionamiento:**  
+https://kiri-ia.vercel.app/
 
 ## 🌱 Impacto
 
