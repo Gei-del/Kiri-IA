@@ -99,11 +99,8 @@ npm run dev
 ```
 Abre http://localhost:3000
 
-## Desplegar en Vercel (fácil)
-1. Sube esta carpeta a un repositorio de GitHub.
-2. En vercel.com → New Project → importa el repo.
-3. Framework: Next.js (se detecta solo). Dale **Deploy**. No requiere variables de entorno.
+## ☁️ Despliegue
 
-## Notas
-- Los datos viven en el navegador (localStorage). Para producción real, se conecta a Supabase.
-- Kiri **orienta**, no certifica. En residuos peligrosos muestra el aviso de manejo especializado.
+La aplicación está desplegada en **Vercel** y puede consultarse desde la demo pública.
+
+El proyecto utiliza **Next.js** y actualmente no requiere variables de entorno para ejecutar esta versión.n residuos peligrosos muestra el aviso de manejo especializado.
