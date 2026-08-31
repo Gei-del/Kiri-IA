@@ -56,6 +56,7 @@ en el diccionario de Kiri.
 
 ## 🏗️ Arquitectura
 
+```text
 kiri-ia/
 ├── app/
 ├── components/
@@ -65,6 +66,7 @@ kiri-ia/
 ├── package.json
 ├── next.config.mjs
 └── tailwind.config.ts
+```
 
 ## 🚀 Demo
 
